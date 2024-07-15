@@ -9,7 +9,7 @@
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background: rgb(63,94,251);
-background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+background: rgb(51, 54, 117);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -72,7 +72,7 @@ button:focus-visible {
 }
 .hello{
   width: 500px;
-  height: 250px;
+  height: 230px;
 background-image: url("https://media.istockphoto.com/id/1573329496/photo/multi-layers-color-texture-3d-papercut-layers-in-gradient-vector-banner-carving-art-cover.jpg?s=2048x2048&w=is&k=20&c=V9r3neJyZMj592uuC9_sKxgWSr3-9NO2i7oxifWttIU=");
 }
 @keyframes example {

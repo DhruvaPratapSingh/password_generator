@@ -1,7 +1,6 @@
 import { useState, useCallback, useEffect, useRef } from 'react'
 import "./App.css"
 
-
 function App() {
   const [length, setLength] = useState(8)
   const [numberAllowed, setNumberAllowed] = useState(false);
@@ -38,14 +37,13 @@ function App() {
     passwordGenerator()
   }, [length, numberAllowed, charAllowed, passwordGenerator])
   return (
-    
-    <div className=" hello w-full max-w-lg mx-auto shadow-md rounded-lg px-4 py-3 my-8 bg-stone-400 text-orange-500">
-      <h1 className='text-white text-center my-3 mb-10  text-blue-700'>Password generator</h1>
-    <div className="flex shadow rounded-lg overflow-hidden mb-4 font-bold py-3">
+    <div className="w-full max-w-md mx-auto shadow-md rounded-lg px-4 py-3 my-8 bg-stone-500 text-orange-500 text-center lg:max-w-lg ">
+      <h1 className='text-white text-center my-3 mb-1 text-4xl text-wrap lg:text-5xl'>Password generator</h1>
+    <div className="flex shadow rounded-lg overflow-hidden mb-6 font-bold py-6">
         <input
             type="text"
             value={password}
-            className="outline-none w-full py-1 px-3"
+            className="outline-none w-full p-1 rounded-md"
             placeholder="Password"
             readOnly
             ref={passwordRef}
